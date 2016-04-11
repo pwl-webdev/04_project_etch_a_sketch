@@ -1,0 +1,42 @@
+html,body{
+    margin: 0;
+}
+p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#container {
+    position:relative;
+}
+#upper {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+#middle{
+	position: relative;
+	margin: 0 auto;	
+	background: yellow;
+	border: 2px solid grey;
+	font-size: 0;
+}
+#title{
+	margin-top: 20px;
+	font-family: arial, sans-serif;
+	font-size: 24px;
+	line-height: 80%;
+}
+#instruction{
+	font-family: arial, sans-serif;
+	line-height: 80%;
+}
+#reset{
+	margin-bottom: 10px;
+}
+.cell{
+	background: black;
+	display: inline-block;
+	margin: 0 auto;
+	padding: none;
+	vertical-align: top;
+}
